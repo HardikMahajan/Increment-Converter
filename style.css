@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Redressed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inconsolata", sans-serif;
+    height: 100vh;
+    background: #2a364f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.counter-container {
+    justify-content: space-between;
+    margin: 0 70px 0 0;
+}
+.counter {
+    color: #f8b627;
+    margin: 20px 0 20px 0;
+    font-size: 30px;
+}
